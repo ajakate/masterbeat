@@ -1,0 +1,11 @@
+{
+    "name": "masterbeat",
+    "version": "0.0.1",
+    "scripts": {
+        "watch": "shadow-cljs watch app",
+        "repl": "shadow-cljs repl app"
+    },
+    "devDependencies": {
+        "shadow-cljs": "2.21.0"
+    }
+}
