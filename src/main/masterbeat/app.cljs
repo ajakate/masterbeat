@@ -4,7 +4,7 @@
 
 (defn simple-component []
   [:div
-   [:p "I am nothing"]
+   [:p.text-5xl "I am nothing"]
    [:p.someclass
     "I have " [:strong "bold"]
     [:span {:style {:color "red"}} " and red "] "text."]])
